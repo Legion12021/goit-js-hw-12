@@ -5,21 +5,28 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>goit-js-hw-12</title>
+  <title>HW 12</title>
   <link rel="stylesheet" href="./css/styles.css" />
-
-  
 </head>
 
 <body>
-  <form class="search-form" id="searchForm">
-    <input type="text" name="searchWord" class="search-input" placeholder="Search images..." />
-    <button class="search-btn" type="submit">Search</button>
-  </form>
+  <section>
+    <div class="container">
+      <form class="form">
+        <input type="text" name="search" placeholder="Search images...">
+        <button type="submit">Search</button>
+      </form>
 
-  <div class="gallery"></div>
-  <button class="load-btn" type="submit">Load more</button>
-  <div class="loader"></div>
+      <ul id="gallery" class="gallery"></ul>
+
+      <div class="container-btn">
+        <button class="js-load-btn is-hidden" id="loadMore" type="button">Load more</button>
+      </div>
+
+      <span id='loader' class="loader"></span>
+    </div>
+  </section>
+
 
   <script type="module" src="./main.js"></script>
 </body>

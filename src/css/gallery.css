@@ -1,0 +1,31 @@
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+img {
+    height: 152px;
+}
+
+.image-info {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.info p {
+    font-weight: 400;
+    line-height: 2;
+}
+
+.gallery-item {
+    border: 1px solid #808080;
+}
